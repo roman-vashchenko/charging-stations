@@ -1,0 +1,98 @@
+.about-title {
+  padding-top: 232px;
+  margin-bottom: 30px;
+  color: rgb(63, 133, 92);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.about-company {
+  width: 400px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 128px;
+}
+
+.about-list .wrap-left .item {
+  margin-bottom: 26px;
+}
+
+.about-list .wrap-left .item:last-child {
+  margin-bottom: 0;
+}
+
+.about-list .wrap-right .item {
+  margin-bottom: 26px;
+}
+
+.about-list .wrap-right .item:last-child {
+  margin-bottom: 0;
+}
+
+.about-list span {
+  font-style: italic;
+  color: rgb(63, 133, 92);
+  font-size: 150px;
+  font-weight: 250;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.about-list p {
+  font-weight: 300;
+  line-height: 1.22;
+}
+
+.awards-list {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 105px;
+}
+
+.awards-list .item {
+  width: calc((100% - 480px) / 7);
+  height: 100px;
+}
+
+.awards-list .item:nth-child(1) {
+  background-image: url("../icons/edisonawards_opt.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(2) {
+  background-image: url("../icons/worldchanging_opt2.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(3) {
+  background-image: url("../icons/newsweek_opt.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(4) {
+  background-image: url("../icons/bestofCES_opt.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(5) {
+  background-image: url("../icons/robb-report_opt.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(6) {
+  background-image: url("../icons/germandesign_opt.png");
+  background-position: center;
+}
+
+.awards-list .item:nth-child(7) {
+  background-image: url("../icons/electrek_opt.png");
+  background-position: center;
+}

@@ -1,6 +1,42 @@
-// a {
-//   display: block;
-//   width: 110px;
-//   height: 35px;
-//   background-image: url("../image/logo.png");
-// }
+.header {
+  background-color: rgba(63, 133, 92, 0.9);
+}
+
+.nav-site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.logo {
+  display: block;
+  width: 110px;
+  height: 35px;
+  background-image: url("../image/logo.png");
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.liner-top {
+  width: 40px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.liner-medium {
+  width: 20px;
+  height: 1px;
+  background-color: #ffffff;
+}
+.liner-bottom {
+  width: 60px;
+  height: 1px;
+  background-color: #ffffff;
+}
